@@ -22,7 +22,9 @@ int main() {
     
     bi = verifica(ano);
     
-	printf("%d", bi);
+    if (bi == 1) {
+		printf("%d", bi);
+	}
     
     return 0;
 }
